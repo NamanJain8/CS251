@@ -1,0 +1,43 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{}}
+%opening
+\title{Assignment 8- \textbf{Make and GNUplot}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{plot1}
+\caption{Scatter Plot}
+\label{fig:plot1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{plot2}
+	\caption{Line Plot}
+	\label{fig:plot2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{plot3}
+	\caption{Speed Up Plot}
+	\label{fig:plot3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{plot4}
+	\caption{Speed Up Plot with error bars}
+	\label{fig:plot4}
+\end{figure}
+
+Time for computation increases with increase in number of elements. As we increase number of threads time remains alomst the same for fewer number of elements. But as the number of elements increases parallelisation can be observed clearly from Figure \ref{fig:plot2} and Figure \ref{fig:plot3}.
+
+\end{document}

@@ -1,0 +1,22 @@
+From 63c4b10505f91134be698cce03e06f4134671f65 Mon Sep 17 00:00:00 2001
+From: Naman Jain <namanj@cse.iitk.ac.in>
+Date: Thu, 22 Feb 2018 23:57:49 +0530
+Subject: [PATCH] Step 30
+
+---
+ hello.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hello.c b/hello.c
+index f4c737c..ddfc3d4 100644
+--- a/hello.c
++++ b/hello.c
+@@ -1,4 +1,5 @@
+ #include<stdio.h>
++// This comment is just for fun
+ void microkernel_sendmsg(char *);
+ void main(){
+ printf("Helloworld!\n");
+-- 
+2.7.4
+
